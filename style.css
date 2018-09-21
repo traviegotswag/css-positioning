@@ -1,0 +1,74 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+.background {
+  height: 250px;
+  background: linear-gradient(rgb(87,125,158), rgb(57,97,132));
+}
+
+#phones {
+  padding-top: 100px;
+  height: 100%;
+}
+
+#brand {
+  padding-top: 100px;
+  display: inline-block;
+}
+
+#login {
+  padding-top: 120px;
+  margin-right: 50px;
+  display: inline-block;
+  width: 100px;
+  float: right;
+}
+
+.content {
+  background-image: url('img/frame.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contentHeader {
+  font-size: 30px;
+  font-family: 'Lora', serif;
+  color: rgb(28,64,197);
+  width: 500px;
+  padding: 20px;
+}
+
+.contentHeader2 {
+  font-size: 30px;
+  font-family: 'Lora', serif;
+  color: rgb(28,64,197);
+  width: 500px;
+  padding: 20px;
+}
+
+.contentPara {
+  border-spacing: 40px;
+  width: 400px;
+}
+
+.android {
+  display: inline-block;
+}
+
+.iphone {
+  display: inline-block;
+}
+
+.footer {
+  padding: 100px;
+  text-align: center;
+}
